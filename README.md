@@ -21,3 +21,12 @@ Usando yarn:
 - cd web
 - yarn start
 - yarn build
+
+dentro do /server
+banco de dados
+- yarn add knex
+- yarn add sqlite3
+- yarn knex migrate:latest --knexfile knexfile.ts migrate:latest (se ele criar um arquivo database.sqlite é porque funcionou)
+
+,
+    useNullAsDefault: true, remove o erro após o yarn knex migrate ser executado
